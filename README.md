@@ -175,3 +175,8 @@ Chat with the trained model:
 ```bash
 python chat.py
 ```
+
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
