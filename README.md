@@ -147,3 +147,30 @@ own sake and in accordance with a right rule ...
 ```
 
 Full, unedited generations for all models are available in `samples/`.
+
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/importstring/aristotle-minigpt.git
+cd aristotle-minigpt
+```
+
+Create and activate the conda environment:
+```bash
+conda env create --file env.yml
+conda activate MiniGPT
+```
+
+### Usage
+Train the main (3×192) model:
+```bash
+python train.py
+```
+
+Chat with the trained model:
+```bash
+python chat.py
+```
