@@ -6,8 +6,9 @@
 # Aristotle‑MiniGPT
 
 
-![Python](https://img.shields.io/badge/python-3.10-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
+![Python](https://img.shields.io/badge/python-3.10-tan)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-tan)
+![License](https://img.shields.io/badge/license-MIT-tan)
 
 
 Tiny GPT‑style Transformer trained from scratch in PyTorch on a 1.5 MB corpus of public‑domain Aristotle. Character‑level next‑token prediction, multiple model sizes, full training logs, loss curves, and sample generations.
