@@ -65,6 +65,27 @@ For each run, training and validation losses are logged to JSON under `logs/` an
 
 ![Validation loss comparison](images/val_loss_comparison.png)
 
+### Learning rate schedule (3×192 run only)
+
+For the 15k‑iteration run, the learning rate is:
+
+- Linear warmup from 0 to 3e‑4 over the first 100 iterations.
+- Cosine decay from 3e‑4 down to 3e‑5 over the remaining iterations.
+
+This is implemented as:
+
+```python
+warmup_iters = 100
+final_lr = learning_rate * 0.1
+
+def get_lr(it):
+    if it < warmup_iters:
+        return learning_rate * it / warmup_iters
+    progress = (it - warmup_iters) / max(1, (max_iters - warmup_iters))
+    coeff = 0.5 * (1 + math.cos(math.pi * progress))
+    return final_lr + (learning_rate - final_lr) * coeff
+```
+
 ### Results
 
 | Model | Layers × Emb dim | Heads | Iters (max) | Final val loss |
