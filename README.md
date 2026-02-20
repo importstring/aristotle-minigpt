@@ -102,4 +102,36 @@ Every trained model is asked the same three questions:
 2. How would you describe the life of a happy person?  
 3. Explain the concept of the golden mean.
 
-[placeholder]
+> **Prompt:** “Explain the concept of the golden mean”
+
+```text
+Tiny  (2×128, 3k iters)
+A: ... For the goodness is who he archar are man for actions of the save
+particular active; and it endo a some to long is alwever, and habit,
+wishes with the thill said ...
+
+Mid   (3×160, 5k iters)
+A: ... side more good to much the end and who exroy to money are of the
+strong man whoo be fautness of gy happiness, and way been should love
+make and activity, and are desirate the same of the seccesses of attainly ...
+
+Large (3×192, 15k iters)
+A: ... It is characteristic of such acts are intermediate between
+a demand say his shares the right rule, and of honour ...
+```
+
+> Other prompts with the largest model (3×192, 15k iters)
+
+```text
+Q: Hi, how are you?
+A: ... a meanness of it. A flatterer, then, is to be judged by the objects of
+choice and the end of being, as a sort of acting for the sake of appearing
+good to those with whom he lives ...
+
+Q: How would you describe the life of a happy person?
+A: Of the life that is called happy we say that it is in accordance with virtue,
+for in such a life the acts are between excess and defect, chosen for their
+own sake and in accordance with a right rule ...
+```
+
+Full, unedited generations for all models are available in `samples/`.
