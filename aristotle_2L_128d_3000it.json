@@ -1,0 +1,23 @@
+{
+  "config": {
+    "n_embd": 128,
+    "n_layer": 2,
+    "n_head": 4,
+    "block_size": 64,
+    "max_iters": 3000
+  },
+  "samples": [
+    {
+      "question": "Hi, how are you?",
+      "answer": "Q: Hi, how are you?\nA:ly things is follow is the same as contiver actimpy, and not oll archange in pabour it all it in elleasolly approud likeling choseed difference it of live too the maded is of whas a deseliter, and which does what a man is easigness an the has the good pleasure who men is good more suffaies in dissires idecoments marde many and repecause of the being to eacless and it outween wise thought founeting"
+    },
+    {
+      "question": "How would you describe the life of a happy person?",
+      "answer": "Q: How would you describe the life of a happy person?\nA: those cannot action in madest happeres of they endser in would of it he man atime friendship is activations intermed by goodult amolie; wing the conterned toward the care, and have and a said, have and activality the chiencerate is they are producely in or eeptly is natime or call wing is a frains it do. Achies anyther is raiselies, and if in the leard practignion, also and comer'self with or tha"
+    },
+    {
+      "question": "Explain the concept of the golden mean",
+      "answer": "Q: Explain the concept of the golden mean\nA:ur up. For the goodness is who he archar are man for actions of the save porticular active; and it endo a some to long is alwever, and habit, wishes with the thill said. Whas as other of the admant of good togetinence who is is desired of acchies is that love elight? wickence, as the givest of delits and is actronsiself they be conternations of the of the who had tractient, and in smage; other the"
+    }
+  ]
+}

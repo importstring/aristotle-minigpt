@@ -1,0 +1,23 @@
+{
+  "config": {
+    "n_embd": 160,
+    "n_layer": 3,
+    "n_head": 4,
+    "block_size": 64,
+    "max_iters": 5000
+  },
+  "samples": [
+    {
+      "question": "Hi, how are you?",
+      "answer": "Q: Hi, how are you?\nA: that which is good man is well men not be of things that there are are extand the laws seems to by the objects (for their do the case of man who carace, and by meance of them is disgrace in the former appears to particular becoming not are the thing is some most, and the part of as a paine the person of this concerned with persumation those who are would be the starting. Poreselves a sourt friend"
+    },
+    {
+      "question": "How would you describe the life of a happy person?",
+      "answer": "Q: How would you describe the life of a happy person?\nA:\n\nBut other does not do those who are found of great thems are must and the remaining of the trave them is the others are lime wholes for the nature, and the present man is seems to sham live. It is always in less that is better by humit it would power, we ought, to he ought the think that man less conce what is it iderses to the same of the crimmi for the friendship rincumins that the are done me"
+    },
+    {
+      "question": "Explain the concept of the golden mean",
+      "answer": "Q: Explain the concept of the golden mean\nA: side more good to much the end and who exroy to money are of the strong man whoo be fautness of gy happiness, and way been should love make and activity, and are desirate the same of the seccesses of attainly; but it is not included, which the way is being a good means dohb their contrinent of hims, as at the from is he both in why is talks he suld in case an because of the proside what seem to b"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "n_embd": 192,
+    "n_layer": 3,
+    "n_head": 4,
+    "block_size": 64,
+    "max_iters": 15000
+  },
+  "samples": [
+    {
+      "question": "Hi, how are you?",
+      "answer": "Q: Hi, how are you?\nA:t power and its a meanness of it. A flictterer, then, to be done of the objects of choice and the durate of being us to taken as a sort of acting end. Therefore we do not fulfilled friends, not bad men, who does concerned with things though at the influence of these two kinds, then, to give them and the other terms-nor to better; for of the other citizens are thought to eternal the put has suppose"
+    },
+    {
+      "question": "How would you describe the life of a happy person?",
+      "answer": "Q: How would you describe the life of a happy person?\nA:\n\nOf the case of the states of sometimes are better than he has done a sort of proceeds, or by premisses, and so to be a friend to come the law distinct. The proportion of our proportion or that which is done is like according to the people are friends out of virtue and like to the defect, as in the lack of which they do not due the thing, but are said to be the best thing, but only the temperate "
+    },
+    {
+      "question": "Explain the concept of the golden mean",
+      "answer": "Q: Explain the concept of the golden mean\nA:\n\nBut we do not to say that he willing practical wisdom, in such a man. (1) Whether, then, which is a different differ in virtue of thing; we see to superior passion, but of honour or at lawful and they are of the limiting in the way is what is unjust, not incrowing principle is an end.\n\nIt is characteristic of such acts are intermediate between a demand say his shares the right rule, and of honou"
+    }
+  ]
+}
