@@ -1,8 +1,17 @@
+<p align="center">
+  <img src="images/Aristotle_header.jpg" alt="Aristotle header" width="1100">
+</p>
+
+
 # Aristotle‑MiniGPT
+
+
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
 
+
 Tiny GPT‑style Transformer trained from scratch in PyTorch on a 1.5 MB corpus of public‑domain Aristotle. Character‑level next‑token prediction, multiple model sizes, full training logs, loss curves, and sample generations.
+
 
 ## Overview
 
@@ -63,7 +72,10 @@ The main experiments compare three configurations:
 
 For each run, training and validation losses are logged to JSON under `logs/` and visualized with Matplotlib.
 
-![Validation loss comparison](images/val_loss_comparison.png)
+<p align="center">
+  <img src="images/val_loss_comparison.png" alt="Validation loss comparison" width="900">
+</p>
+
 
 ### Learning rate schedule (3×192 run only)
 
