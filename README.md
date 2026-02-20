@@ -6,7 +6,7 @@
 # Aristotle‑MiniGPT
 
 
-![Python](https://img.shields.io/badge/python-3.10-tan)
+![Python](https://img.shields.io/badge/Python-3.10-tan)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-tan)
 ![License](https://img.shields.io/badge/license-MIT-tan)
 
